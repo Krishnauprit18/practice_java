@@ -5,6 +5,10 @@ public class main11{
             if(num == 5){
                 break;
             }
+
+            if(num % 4 == 0){
+                continue;
+            }
             System.out.println(num);
         }
     }
